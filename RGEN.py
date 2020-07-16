@@ -1,3 +1,5 @@
+#this is the testing branch
+
 import numpy as np
 class RecurrentNeuralNetwork:
     
