@@ -1,3 +1,8 @@
+#Braden if you are in here,  there is no need to do anything with this file.
+#The UI should be built into RGEN.py
+
+
+
 import numpy as np
 class RecurrentNeuralNetwork:
     
