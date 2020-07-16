@@ -267,7 +267,7 @@ def main():
     import random
     #Begin program    
     print("Beginning")
-    iterations = 25
+    iterations = 25  #Change to change how many times the program loops through
     learningRate = 0.1
     returnData, numCategories, expectedOutput, outputSize, data = LoadText()
     print("Done Reading")
@@ -282,10 +282,9 @@ def main():
             seed = np.zeros_like(RNN.x)
             maxI = np.argmax(np.random.random(RNN.x.shape))
             seed[maxI] = 1
-            RNN.x = seed  
+            RNN.x = seed
             output = RNN.sample()
             ExportText(output, data)
     print("Complete")
 
 main()
-			
